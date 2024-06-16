@@ -3,7 +3,7 @@ import Separador from './separador'
 function Info () {
   return (
     <div className='relative h-[80vh] w-full my-8'>
-      <img src='./src/img/fondo.jpeg' alt='' className='absolute object-cover w-full h-full' />
+      <img src='img/fondo.jpeg' alt='' className='absolute object-cover w-full h-full' />
       <div className='absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center'>
         <Separador titulo='¿Por qué nosotros?' subtitulo='Nuestras cifras hablan por sí solas' />
         <div className='flex flex-row w-full px-10 py-8'>

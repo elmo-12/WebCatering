@@ -1,11 +1,11 @@
 import './App.css'
-import Contactarnos from './vistas/contactarnos'
+import Inicio from './vistas/inicio'
 
 function App() {
 
   return (
     <>
-      <Contactarnos />
+      <Inicio />
     </>
   )
 }

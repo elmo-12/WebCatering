@@ -5,7 +5,7 @@ const Principal2 = () => {
     <div className='relative w-[100%] h-[100vh]'>
       {/* Imagen de fondo que ocupa todo el ancho y alto de la pantalla */}
       <img
-        src='src/img/principal.jpg'
+        src='img/principal.jpg'
         alt='Imagen de fondo'
         className='absolute inset-0 w-full h-full object-cover'
       />

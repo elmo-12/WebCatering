@@ -7,7 +7,7 @@ import Carta2 from '.././components/carta2' // Importamos el componente Carta2
 import Opciones from '.././components/opciones' // Importamos el componente Opciones
 import Info from '.././components/info' // Importamos el componente Info
 import Galeria from '.././components/galeria' // Importamos el componente Galeria
-import { fetchCartas } from '../utils/fecth'
+import { fetchCartas } from '../../public/utils/fecth' // Importamos la función fetchCartas
 
 // Definimos el componente Inicio
 function Inicio () {

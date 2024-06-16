@@ -3,8 +3,8 @@ import Modal from 'react-modal'
 import { FaSearch, FaTimes } from 'react-icons/fa'
 
 const images = [
-  './src/img/image1.jpeg', './src/img/image2.jpeg', './src/img/image3.jpeg', './src/img/image4.jpeg',
-  './src/img/image5.jpeg', './src/img/image6.jpeg', './src/img/image7.jpeg', './src/img/image8.jpeg'
+  'img/image1.jpeg', 'img/image2.jpeg', 'img/image3.jpeg', 'img/image4.jpeg',
+  'img/image5.jpeg', 'img/image6.jpeg', 'img/image7.jpeg', 'img/image8.jpeg'
 ]
 
 Modal.setAppElement('#root') // Set the app root for accessibility
