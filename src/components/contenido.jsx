@@ -2,7 +2,7 @@ function Contenido () {
   return (
     <div className='my-8 flex mx-8'>
       <div className='w-1/2 h-[90vh]'>
-        <img src='./src/img/nosotros.jpeg' alt='' className='h-full w-full object-cover' />
+        <img src='img/nosotros.jpeg' alt='' className='h-full w-full object-cover' />
       </div>
       <div className='w-1/2 px-8 flex flex-col justify-center'>
         <h1 className='font-bold text-red-700 text-2xl font-poppins'>Una herencia culinaria de generación en generación</h1>

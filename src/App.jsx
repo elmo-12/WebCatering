@@ -1,11 +1,11 @@
 import './App.css'
-import Menu from './vistas/menu'
+import Nosotros from './vistas/nosotros'
 
 function App() {
 
   return (
     <>
-      <Menu />
+      <Nosotros />
     </>
   )
 }

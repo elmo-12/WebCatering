@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
@@ -5,7 +6,8 @@ import 'slick-carousel/slick/slick-theme.css'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import axios from 'axios'
 
-const ArrowLeft = ({ ...props }) => (
+// eslint-disable-next-line react/prop-types
+const ArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <button
     {...props}
     className='absolute left-0 top-1/2 transform -translate-y-1/2 p-2  bg-opacity-50 text-white z-10'
@@ -16,7 +18,7 @@ const ArrowLeft = ({ ...props }) => (
 )
 
 // eslint-disable-next-line react/prop-types
-const ArrowRight = ({ ...props }) => (
+const ArrowRight = ({ currentSlide, slideCount, ...props }) => (
   <button
     {...props}
     className='absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-opacity-50 text-white z-10'
@@ -31,7 +33,7 @@ const SSlider = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios('src/info/opiniones.json')
+      const result = await axios('public/info/opiniones.json')
       setopiniones(result.data.opiniones)
     }
 
