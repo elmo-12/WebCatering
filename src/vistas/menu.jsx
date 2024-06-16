@@ -5,7 +5,7 @@ import Carta from '../components/carta'
 import Separador from '../components/separador'
 import Principal from '../components/principal'
 import Opciones from '../components/opciones'
-import { fetchCartas } from '../utils/fecth'
+import { fetchCartas } from '../../public/utils/fecth'
 
 // Definimos el componente Menu
 function Menu () {
