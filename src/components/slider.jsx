@@ -33,7 +33,7 @@ const SSlider = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios('public/info/opiniones.json')
+      const result = await axios('info/opiniones.json')
       setopiniones(result.data.opiniones)
     }
 
