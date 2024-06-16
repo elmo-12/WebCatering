@@ -14,17 +14,17 @@ const Navbar = () => {
     <nav className='bg-white p-4'>
       <div className='container mx-auto flex justify-between items-center'>
         <div className='flex items-center'>
-          <img src='src/img/logo.svg' alt='Logo' className='h-12 w-12 mr-2' />
+          <img src='img/logo.svg' alt='Logo' className='h-12 w-12 mr-2' />
         </div>
         <div className='hidden md:flex space-x-8'>
-          <Link to='/Cateringg/' className={`text-lg ${linkClasses('/Cateringg/')} font-nunito`}>Inicio</Link>
-          <Link to='/Cateringg/menu' className={`text-lg ${linkClasses('/Cateringg/menu')} font-nunito`}>Nuestro menú</Link>
-          <Link to='/Cateringg/nosotros' className={`text-lg ${linkClasses('/Cateringg/nosotros')} font-nunito`}>Acerca de nosotros</Link>
-          <Link to='/Cateringg/contactarnos' className={`text-lg ${linkClasses('/Cateringg/contactarnos')} font-nunito`}>Contactarnos</Link>
+          <Link to='/' className={`text-lg ${linkClasses('/')} font-nunito`}>Inicio</Link>
+          <Link to='/menu' className={`text-lg ${linkClasses('/menu')} font-nunito`}>Nuestro menú</Link>
+          <Link to='/nosotros' className={`text-lg ${linkClasses('/nosotros')} font-nunito`}>Acerca de nosotros</Link>
+          <Link to='/contactarnos' className={`text-lg ${linkClasses('/contactarnos')} font-nunito`}>Contactarnos</Link>
         </div>
         <div className='hidden md:block'>
           <button className='bg-red-700 text-center text-white rounded-full h-[45px] w-[160px] text-base font-nunito'>
-            Contáctanos
+          <Link to='/contactarnos'>Reservar ahora</Link>
           </button>
         </div>
         <div className='md:hidden'>
